@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/katopia_records/static/css/main.fba7babe.css",
-    "main.js": "/katopia_records/static/js/main.d4cabcbd.js",
+    "main.css": "/katopia_records/static/css/main.9f40510b.css",
+    "main.js": "/katopia_records/static/js/main.890acf93.js",
     "index.html": "/katopia_records/index.html",
-    "main.fba7babe.css.map": "/katopia_records/static/css/main.fba7babe.css.map",
-    "main.d4cabcbd.js.map": "/katopia_records/static/js/main.d4cabcbd.js.map"
+    "main.9f40510b.css.map": "/katopia_records/static/css/main.9f40510b.css.map",
+    "main.890acf93.js.map": "/katopia_records/static/js/main.890acf93.js.map"
   },
   "entrypoints": [
-    "static/css/main.fba7babe.css",
-    "static/js/main.d4cabcbd.js"
+    "static/css/main.9f40510b.css",
+    "static/js/main.890acf93.js"
   ]
 }
