@@ -1,10 +1,15 @@
 import React from 'react';
 import '../../App.css';
+import Hero from '../Hero'
 
-export default function Home() {
+
+function Home() {
   return (
     <>
-      <h1 className='home'></h1>
+    
+      <Hero />
     </>
   );
 }
+
+export default Home;
