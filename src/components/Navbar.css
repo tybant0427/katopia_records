@@ -9,12 +9,12 @@
   
   .navbar-logo {
       /* margin: auto; */
-    font-family: 'Inspiration', cursive;
-    color: #fff;
+    font-family:'Calistoga', cursive;
+    color: rgb(248, 211, 3);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 3rem;
   }
   
@@ -41,7 +41,7 @@
   }
   
   .nav-links {
-    color: white;
+    color: rgb(248, 211, 3);
     text-decoration: none;
     padding: 0.5rem 1rem;
   }
