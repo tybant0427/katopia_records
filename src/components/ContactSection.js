@@ -14,13 +14,14 @@ const ContactSectionStyle = styled.div`
     margin-top: 7rem;
     justify-content: space-between;
     position: relative;
+    // background-color: red;
   }
   .contactSection__wrapper::after {
     position: absolute;
     content: '';
     width: 2px;
     height: 50%;
-    background-color: var(--gray-1);
+    background-color: white;
     left: 50%;
     top: 30%;
     transform: translate(-50%, -50%);
@@ -28,11 +29,13 @@ const ContactSectionStyle = styled.div`
   .left {
     width: 100%;
     max-width: 500px;
+   
   }
   .right {
     max-width: 500px;
     width: 100%;
     border-radius: 12px;
+    font-size: 10px;
     /* padding-left: 3rem; */
   }
   @media only screen and (max-width: 768px) {
