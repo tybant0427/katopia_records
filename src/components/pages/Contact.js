@@ -1,9 +1,11 @@
 import React from "react";
+import ContactSection from '../ContactSection'
+
 
 export default function Contact() {
     return ( 
         <>
-        <h1 className="contact">CONTACT</h1>
+        <ContactSection />
         </>
-    )
+    );
 }
