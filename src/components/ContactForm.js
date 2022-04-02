@@ -9,14 +9,15 @@ const FormStyle = styled.form`
   }
   label {
     font-size: 1.8rem;
+    color: #fff;
   }
   input,
   textarea {
     width: 100%;
     font-size: 2rem;
     padding: 1.2rem;
-    color: yellow;
-    background-color: #fff;
+    color: black;
+    background-color: 	rgb(255,255,255, 0.8);
     outline: none;
     border: none;
     border-radius: 8px;
@@ -28,7 +29,7 @@ const FormStyle = styled.form`
   }
   button[type='submit'] {
     background-color: black;
-    color: brown;
+    color: #fff;
     font-size: 2rem;
     display: inline-block;
     outline: none;

@@ -5,15 +5,15 @@ import PText from './PText';
 
 const ItemStyles = styled.div`
   padding: 2rem;
-  background-color: #fff;
+  background-color: 	rgb(255,255,255, 0.8);
   display: flex;
   align-items: center;
   gap: 2rem;
   border-radius: 8px;
   margin-bottom: 2rem;
   .icon {
-    color: orange;
-    background-color: blue;
+    color: #000;
+    background-color: grey ;
     padding: 1.3rem;
     display: flex;
     align-items: center;

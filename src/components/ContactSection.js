@@ -14,21 +14,25 @@ const ContactSectionStyle = styled.div`
     margin-top: 7rem;
     justify-content: space-between;
     position: relative;
-    // background-color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    border-radius: 15px
+    
   }
   .contactSection__wrapper::after {
     position: absolute;
     content: '';
     width: 2px;
-    height: 50%;
+    height: 70%;
     background-color: white;
     left: 50%;
-    top: 30%;
+    top: 50%;
     transform: translate(-50%, -50%);
   }
   .left {
     width: 100%;
     max-width: 500px;
+    
    
   }
   .right {
@@ -57,7 +61,11 @@ const ContactSectionStyle = styled.div`
 
 export default function ContactSection() {
   return (
+    <div className='contact-bg'>
+        
+        
     <ContactSectionStyle>
+      
       <div className="container">
         <SectionTitle heading="contact" subheading="Book Now" />
         <div className="contactSection__wrapper">
@@ -72,6 +80,7 @@ export default function ContactSection() {
         </div>
       </div>
     </ContactSectionStyle>
+    </div>
   );
 }
 
