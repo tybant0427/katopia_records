@@ -11,6 +11,7 @@
     width: 90%;
     margin: 0 auto;
     
+    
   }
 
   html {
@@ -26,13 +27,14 @@
   }
 
   .contact-bg {
-    background-image: url(/images/pexels-stas-knop-1319799.jpg) ;
+    background-image: url(/images/pexels-miguel-á-padriñán-167092.jpg) ;
     width: 100%;
     height: 100%;
     background-position:center;
     z-index: -1;
     background-repeat: no-repeat;
     background-size:cover;
+    background-attachment: fixed;
     
   }
 

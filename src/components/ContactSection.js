@@ -16,7 +16,8 @@ const ContactSectionStyle = styled.div`
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 50px;
-    border-radius: 15px
+    border-radius: 15px;
+    
     
   }
   .contactSection__wrapper::after {
@@ -40,11 +41,13 @@ const ContactSectionStyle = styled.div`
     width: 100%;
     border-radius: 12px;
     font-size: 10px;
-    /* padding-left: 3rem; */
+    
   }
   @media only screen and (max-width: 768px) {
     .contactSection__wrapper {
       flex-direction: column;
+      // padding: 0;
+      
     }
     .contactSection__wrapper::after {
       display: none;
@@ -52,6 +55,8 @@ const ContactSectionStyle = styled.div`
     .left,
     .right {
       max-width: 100%;
+      // padding: 2rem 1rem 1rem 1rem;
+      
     }
     .right {
       padding: 4rem 2rem 2rem 2rem;
@@ -70,8 +75,8 @@ export default function ContactSection() {
         <SectionTitle heading="contact" subheading="Book Now" />
         <div className="contactSection__wrapper">
           <div className="left">
-            <ContactInfoItem icon={<MdLocalPhone />} text="1800-test" />
-            <ContactInfoItem icon={<MdEmail />} text="test@gmail.com" />
+            <ContactInfoItem icon={<MdLocalPhone />} text="(612) 770-9056" />
+            <ContactInfoItem icon={<MdEmail />} text="katopiarecords@gmail.com" />
             <ContactInfoItem text="Minneapolis, MN" />
           </div>
           <div className="right">

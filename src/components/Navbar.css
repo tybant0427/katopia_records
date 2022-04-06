@@ -44,6 +44,7 @@
     color: rgb(248, 211, 3);
     text-decoration: none;
     padding: 0.5rem 1rem;
+    font-size: larger;
   }
   
   .nav-links:hover {
