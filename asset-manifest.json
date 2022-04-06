@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/katopia_records/static/css/main.be69ed5b.css",
-    "main.js": "/katopia_records/static/js/main.5b48c811.js",
+    "main.css": "/katopia_records/static/css/main.82dd55d1.css",
+    "main.js": "/katopia_records/static/js/main.97544a60.js",
     "static/media/background.jpg": "/katopia_records/static/media/background.c4103f917783a00b0a1f.jpg",
-    "static/media/pexels-stas-knop-1319799.jpg": "/katopia_records/static/media/pexels-stas-knop-1319799.a9269053aaf3e2b901f7.jpg",
+    "static/media/pexels-miguel-á-padriñán-167092.jpg": "/katopia_records/static/media/pexels-miguel-á-padriñán-167092.162443d6a19c3c8b335a.jpg",
     "static/media/katopia.png": "/katopia_records/static/media/katopia.92992097f4da723065fa.png",
     "index.html": "/katopia_records/index.html",
-    "main.be69ed5b.css.map": "/katopia_records/static/css/main.be69ed5b.css.map",
-    "main.5b48c811.js.map": "/katopia_records/static/js/main.5b48c811.js.map"
+    "main.82dd55d1.css.map": "/katopia_records/static/css/main.82dd55d1.css.map",
+    "main.97544a60.js.map": "/katopia_records/static/js/main.97544a60.js.map"
   },
   "entrypoints": [
-    "static/css/main.be69ed5b.css",
-    "static/js/main.5b48c811.js"
+    "static/css/main.82dd55d1.css",
+    "static/js/main.97544a60.js"
   ]
 }
